@@ -20,6 +20,20 @@
 
 项目是通过 idea 创建，请最好使用 Tomcat 9，不然 session、pageContext 在 idea 里识别不了，会很难受。
 
+数据库相关
+```
+数据库 userdb中有两个表：
+    tb_user 存放用户注册登录的信息
+    tb_music音乐信息
+
+数据库账号密码：
+username = "root"
+password = ""
+登录页面登录账号密码均相同：admin、admin2、admin3
+
+详细可查看 output.sql 文件
+```
+
 ## 项目构造
 
 采用分层思想，bean + dao + factory + Filter + util + servlet
