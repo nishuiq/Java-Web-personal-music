@@ -23,8 +23,8 @@
 数据库相关
 ```
 数据库 userdb 中有两个表：
-    tb_user 存放用户注册登录的信息
-    tb_music音乐信息
+    tb_user  存放用户注册登录的信息
+    tb_music 音乐信息
 
 数据库账号密码：
 username = "root"
