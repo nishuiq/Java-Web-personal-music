@@ -29,7 +29,17 @@
 数据库账号密码：
 username = "root"
 password = ""
-登录页面登录账号密码均相同：admin、admin2、admin3
+
+tb_user:
++----+----------+----------+
+| id | username | password |
++----+----------+----------+
+|  1 | admin    | admin    |
+|  2 | admin2   | admin2   |
+|  3 | admin3   | admin3   |
+|  4 | admin4   | admin4   |
++----+----------+----------+
+4 rows in set (0.00 sec)
 
 详细可查看 output.sql 文件
 ```
